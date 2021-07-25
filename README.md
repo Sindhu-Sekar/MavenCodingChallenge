@@ -12,9 +12,9 @@ Input "Exit" will stop the program.
 CodingChallengeTest.java - Junit class which has a list of test cases to run the program against. I used Junit 5 for TDD programming.
 
 Steps to run the program:
-1. Clone the above repository with the master branch and open it in any Java IDE.
+1. Clone the above repository with the master branch and import it in any Java IDE as a maven project.
 3. Run App.java to enter the digits to find the next highest number in the sequence. No command line argument needed.
-4. Run NextHighestNumberTests.java to run the Junit test cases.
+4. Run CodingChallengeTest.java to run the Junit test cases.
 
 Algorithm used:
 1. Find the first x position from right where the value is less than the one next to it.
